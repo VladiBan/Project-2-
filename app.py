@@ -1,7 +1,6 @@
 import streamlit as st
 import numpy as np
 from PIL import Image
-import joblib
 import requests
 import io
 
@@ -98,4 +97,5 @@ st.sidebar.write("""
     - Black digit
     - Centered digit
     - Minimal noise
+
 """)
